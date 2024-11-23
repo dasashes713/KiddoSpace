@@ -3,6 +3,7 @@ import { useSession, signIn, signOut } from "next-auth/react";
 
 const Navbar = () => {
   const { data: session } = useSession();
+  
 
   return (
     <nav className="bg-blue-600 p-4">
